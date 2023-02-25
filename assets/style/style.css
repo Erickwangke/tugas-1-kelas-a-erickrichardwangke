@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+  }
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom-color: #b5b5b5;
+    border-bottom: 2px;
+    border-style: solid;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+.contain1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contain1 img {
+    border-radius: 10px;
+    position: relative;
+}
+
+.th1 {
+    border-right: 1px solid black;
+    padding-right: 30px;
+}
+
+.th2 {
+    padding-left: 30px;
+}
+  
+.tabel1 {
+    border: 2px;
+    border-style: outset;   
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    background-color: white;
+    margin-top: 450px;
+    height: 60px;
+    width: 700px;
+    font-size: 18px;
+}
+
+.contain2 {
+    margin: 82px;
+}
+
+.cardcontain {
+    display: flex;
+}
+
+.card1 {
+    height: 500px;
+    width : 300px;
+    background: #0066fe;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 img {
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.card1nama{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+
+.card1bintang{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.card1locations {
+    margin-top: 10px;
+    color: white;
+}
+
+.card1button {
+    margin-left: 120px;
+    margin-top: 50px;
+    height: 30px;
+    width :100px
+}
+
+.card2 {
+    position: relative;
+}
+
+.card2info {
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to right, #0066fe,rgba(0, 0, 0, 0));
+    padding-left: 23px;
+    padding-top: 15px;
+}
+
+.card2nama {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.card2descript {
+    padding-top: 8px;
+    font-size: 20px;
+    color: white;
+}
+
+.card2 img {
+    border-radius: 15px;
+    margin-bottom: 0;
+}
+
+.card3 {
+    height: 450px;
+    width : 300px;
+    background: #0066fe;
+    border-radius: 10px;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card3 img {
+    width: 260px;
+    height: 240px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card3nama{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.card3locations {
+    margin-top: 10px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.card3button {
+    margin-left: 140px;
+    margin-top: 50px;
+    height: 30px;
+    width :100px;
+}
+
+.footer {
+    border-top: 2px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    padding-top: 10px;
+}
+
+.contain3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+footer ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footerinfo {
+    color: #BDBBBB;
+}
